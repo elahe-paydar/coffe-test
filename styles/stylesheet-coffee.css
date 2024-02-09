@@ -1,0 +1,542 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins-cufonfonts-webfont/Poppins-Regular.woff) format('woff');
+}
+
+body {
+    margin: 0 auto !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px !important;
+    /* line-height: 1.4vw; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+li {
+    list-style: none;
+    color: white;
+
+
+}
+
+image {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #222222 !important;
+}
+
+p {
+    font-size: 0.7rem;
+    color: #777777 !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10vw;
+    flex-direction: column;
+    font-size: 11px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10000;
+    transition: color 0.5s;
+}
+
+.top-header {
+    justify-content: end;
+    display: none !important;
+}
+
+.work-schedule li {
+    padding: 0 1vw;
+}
+
+.down-header {
+    justify-content: space-between;
+
+
+}
+
+.navbar-menu {
+    display: none !important;
+
+}
+
+.navbar-menu li {
+    padding: 0 1vw;
+
+}
+
+.orange-text {
+    color: orange;
+}
+
+.golden-text {
+    color: #b68834;
+    font-weight: 500;
+}
+
+
+.header-bar-icon {
+    padding: 9vh 5vw;
+    display: flex !important;
+}
+
+.header-logo img {
+    padding: 3vh 5vw;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10vh;
+    justify-content: center;
+    align-items: center;
+    line-height: 10vh;
+    font-size: 1.5rem;
+    background-image: url(../image/coffee-project/header-bg.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    width: 100%;
+    margin: 0 15vw;
+    text-align: left;
+
+}
+
+.banner-content h6 {
+    color: white !important;
+}
+
+.banner-content h1 {
+    color: white !important;
+}
+
+.banner-btn {
+    margin-top: 4vh;
+    padding: 1vh 1.2vw;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+
+main {
+    width: 100%;
+}
+
+.live-process {
+    width: 90%;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.process-video {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.process-video a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    z-index: 1000;
+}
+
+.process-video::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.process-description {
+    width: 100%;
+    margin: 10vh 10vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 6vh;
+    text-align: center;
+
+
+}
+
+.process-description h6 {
+    color: #b68834;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.process-description h1 {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+}
+
+.menu {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10vh auto;
+    background-image: url(../image/coffee-project/menu-bg.jpg.webp);
+    background-position: center;
+}
+
+.menu-header {
+    /* width: 70%; */
+    flex-direction: column;
+    gap: 2vh;
+    font-size: 1.5rem;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-content {
+    margin: 10vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vh;
+    margin: 10vh 5vw;
+}
+
+.menu-item {
+    width: 100%;
+    padding: 5vh;
+    gap: 3vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 5px 5px 50px lightgrey;
+    border-radius: 5px;
+}
+
+.menu-item-header {
+    width: 100%;
+    font-size: 1.8rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item-description {
+    width: 100%;
+    text-align: start;
+    color: #777777;
+}
+
+.coffee-types {
+    width: 100%;
+}
+
+.coffee-types-description {
+    padding: 0 5vw;
+    flex-direction: column;
+    gap: 5vh;
+    font-size: 1.5rem;
+    color: black !important;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.coffee-photo-container {
+    width: 80%;
+    margin: 15vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.coffee-type-item {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.coffee-type-item img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.sell-result {
+    width: 100%;
+    padding: 15vh;
+    background-color: #b68834;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    h1 {
+        color: white !important;
+    }
+
+    p {
+        color: white !important;
+    }
+
+
+}
+
+.company-comparing {
+    width: 100%;
+    margin: 0vh auto;
+    flex-wrap: wrap;
+    gap: 10vh;
+
+}
+
+.coffee-types-description {
+    width: 100%;
+    margin: 15vh auto;
+
+}
+
+.company-comparing-item {
+    width: 100%;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.company-comparing-item-head {
+    gap: 2vw;
+    color: white;
+
+    h3 {
+        color: white !important;
+    }
+}
+
+.company-comparing-item-content p {
+    color: white !important;
+}
+
+.final-selling-result {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 5vh;
+    padding: 5vh 0vw;
+
+}
+
+.final-selling-result-item {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+
+}
+
+.result-number {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.result-title {
+    font-size: 1rem;
+    color: white;
+}
+
+.article-container {
+    width: 100%;
+}
+
+.article {
+    width: 100%;
+    margin: 15vh auto;
+    gap: 5vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-img {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.article-img img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.article-link {
+    margin: 0 auto;
+}
+
+.article-link a {
+    color: #222 !important;
+    font-weight: 500;
+    padding: 2vh 2vw;
+    border: 1px solid #777777;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+.article-link a:hover {
+    background-color: #b68834;
+}
+
+.article-content {
+    width: 80%;
+    margin: 0 auto;
+    text-wrap: wrap;
+
+}
+
+.article-date p {
+    color: black !important;
+    font-weight: 500;
+}
+
+.article-item {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    padding: 20vh 0;
+    margin: 0 auto;
+    background-image: url(../image/coffee-project/footer-bg.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+
+    h3 {
+        color: white !important;
+
+    }
+
+    p {
+        color: white !important;
+    }
+}
+
+.about-us {
+
+    margin: 5vh 5vw;
+    flex-direction: column;
+    gap: 3vh;
+
+}
+
+.footer-newsletter {
+    margin: 5vh 5vw;
+    flex-direction: column;
+    gap: 3vh;
+
+}
+.footer-sign-up{
+    width: 100%;
+}
+
+.footer-contact input[type=email] {
+    padding: 2vh 8vw;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.footer-contact button {
+    padding: 2vh 2vw;
+    border: 0;
+    border-radius: 5px;
+    background-color: #b68834;
+    font-size: 1.2rem;
+    color: white;
+
+}
+.footer-contact button:hover{
+    background-color: transparent;
+    border: 2px solid #b68834;
+
+}
+
+.contact {
+    margin: 5vh 5vw;
+    font-size: 1.5rem;
+    flex-direction: column;
+gap: 3vh;
+}
+.footer-icon-container{
+    gap: 3vw;
+}

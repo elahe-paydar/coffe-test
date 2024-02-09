@@ -1,0 +1,25 @@
+/* div{background-image: url('../img-1.png');height: 100px;width: 100px;background-repeat:round;} */
+/* div{font-size: 50px} */
+/* p{font-size: 0.5em;} */
+/* p{font-size: 0.5rem;} */
+/* p{background-color: aquamarine; border: 5px dotted yellowgreen;font-size: larger;padding: 15px;margin: 15px;}
+.margin_box{background-clip:margin_box}
+.padding_box{background-clip:padding-box}
+.border_box{background-clip:border-box}
+.text_box{background-clip:content-box} */
+/* p.parag1{background-image: url(../image/img2.png);background-repeat:no-repeat;background-attachment: fixed;} */
+/* div{
+    width: 60%;
+    height: 60px;
+    background-color: lightgreen;
+        max-width: 500px; */
+        /* div{
+            border: 2px solid violet ;width: 200px ;height: 200px; outline:2px solid blue ;outline-offset: 2px;
+        } */
+        p{
+            /* letter-spacing: 5; */
+            /* word-spacing: 5; */
+            text-align: center;
+            text-shadow: 2px 2px 5px red ;
+            /* white-space: nowrap; */
+        }

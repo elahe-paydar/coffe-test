@@ -1,0 +1,131 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about-us {
+        width:40%;
+        margin: 2vw;
+    }
+
+    .footer-newsletter {
+        width: 40%;
+
+        margin: 2vw;
+    }
+
+    .contact {
+        margin: 2vw;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header-bar-icon {
+        display: none !important;
+    }
+
+    .navbar-menu {
+        display: flex !important;
+        padding-right: 5vw;
+        padding-top: 7vh;
+    }
+
+    .company-comparing-item {
+        width: 45%;
+        gap: 3vh;
+    }
+
+    .final-selling-result {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .final-selling-result-item {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5vh;
+
+    }
+
+    .article {
+        width: 45%;
+        flex-direction: row;
+
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .top-header {
+        justify-content: end;
+        display: flex !important;
+        padding-right: 5vw;
+        padding-top: 5vh;
+    }
+
+    .live-process {
+        flex-wrap: nowrap;
+    }
+
+    .process-description {
+        gap: 2vh;
+
+    }
+
+    .menu-item {
+        width: calc(calc(100%/3) - 6vh)
+    }
+
+    .coffee-photo-container {
+        display: grid;
+        grid-template-areas: 'item1 item2 item2' 'item3 item4 item5';
+        gap: 2%;
+
+    }
+
+    .coffee-type-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .final-selling-result-item {
+        width: calc(calc(100%/4) - 10vh);
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+
+    }
+.footer{
+display: flex;
+flex-direction: row;
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .about-us {
+        width:30% !important;
+        margin: 2vw;
+    }
+
+    .footer-newsletter {
+        width:30% !important;
+        margin: 2vw;
+    }
+
+    .contact {
+        width:30% !important;
+        margin: 2vw;
+    }
+}

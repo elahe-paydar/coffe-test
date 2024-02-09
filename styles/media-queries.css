@@ -1,0 +1,133 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .header-info-box {
+        position: absolute;
+        background-color: #ff4a52;
+        top: 0;
+        bottom: 0;
+        width: 45px;
+        right: 45px;
+    }
+
+    .search-icon a {
+        color: white !important;
+    }
+
+    .drop-down-menu {
+        position: absolute;
+        background-color: #1EC6B6;
+        top: 0;
+        bottom: 0;
+        width: 45px;
+        right: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .popular-content {
+        width: 100%;
+    }
+
+    article {
+        width: 45%;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header-navbar li {
+        display: inline-block;
+    }
+
+    .drop-down-menu {
+        display: none;
+    }
+
+    .newsletter-form {
+        width: 100%;
+
+    }
+
+    .newsletter-discription {
+        width: 20%;
+        font-size: 0.8rem;
+    }
+
+    .newsletter-contact {
+        width: 50%;
+    }
+
+    .newsletter-input {
+        width: 70%;
+    }
+
+    .newsletter-form-btn {
+        width: 20%;
+    }
+
+    .footer-contact {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer-destination {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .footer-contact img {
+        margin: 0 auto;
+    }
+
+    .contact-info {
+        margin: 0 auto;
+    }
+    .footer-destination {
+        display: flex;
+        align-items: center;
+    }
+    .item-holder {
+        display: flex;
+        justify-content: center;
+         }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .search-form {
+        flex-direction: row;
+    }
+
+    .search-form h3 {
+        font-size: 0.7rem;
+    }
+
+    .search-form-input {
+        padding: 2.5vh 5vw;
+    }
+
+    .popular-content {
+        width: 80%;
+    }
+
+    article {
+        width: 30%;
+    }
+
+    .popular-img-info p {
+        font-size: 2vw;
+
+    }
+
+    .popular-img-info a {
+        font-size: 1vw;
+    }
+}

@@ -1,0 +1,43 @@
+/* body{
+    background-color: rgb(204, 54, 79);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+@font-face{
+    font-family:'Niccone';
+    src: url('../fonts/Niconne.eot') format('eot');
+    src: url('../fonts/Niconne.ttf')format('ttf');
+    src: url('../fonts/Niconne.woff')format('woff');
+}
+
+p{
+    font-family:'Niccone' ;font-size: 15rem;color: white;
+    text-shadow: 3px 3px 2px red, 8px 8px 2px orange ,12px 12px 2px rgb(83, 184, 83), 17px 17px 2px rgb(43, 190, 166) ,22px 22px 2px darkblue, 30px 30px 2px rgb(170, 35, 35);
+} */
+
+/* a:hover{ color: green;text-decoration: none;} */
+/* a:visited{color: black;} */
+/* p,a{cursor: pointer;} */
+
+/* ul{
+    background-color:aquamarine ;
+    list-style-type: square;
+    padding: 10px;
+    margin: 10px;}
+li{
+    background-color: pink;
+    list-style-position: inside;
+    padding: 3px;
+    margin: 2px;} */
+
+    /* body{
+        background-color: yellow;display: flex;justify-content: center;align-items: center;
+    }
+ button{
+     width: 100px;height: 50px;;background-color: orange;border: 1px solid orange;border-radius: 10px;padding: 5px;box-shadow: 4px 4px 5px rgba(255, 166, 0, 0.774);
+ }
+ a{
+    text-decoration: none;color: white;font-size: 10px
+}
+  button:hover{margin-bottom:2px;} */

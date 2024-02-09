@@ -1,0 +1,41 @@
+/* body{
+    background-color: navajowhite;
+    color: navajowhite;
+    text-align: center;
+
+}
+header{
+    height: 40%;
+    background-color: darksalmon;
+}
+main{
+    background-color: orange;
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: 3px auto;
+}
+aside{
+    background-color:darkseagreen;
+    width: 30%;
+    height: 50%;
+    float: right;
+    margin: 3px auto;
+}
+footer{
+    background-color:aqua;
+    height: 10%;
+    clear: both;
+} */
+div{
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 2em;
+    padding: auto;
+}
+i{
+    color: orange;
+}
+p::before{
+    content:'//' ;font-size: 1em ;color:  orange ;font-weight: bolder;
+}

@@ -1,0 +1,27 @@
+   /* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   div{height: 200px;width: 200px;
+border-radius: 20px;margin: 5px 
+;}
+.green{background-color: rgb(32, 114, 32);}
+.pink{background-color:rgb(173, 19, 71);}
+.blue{background-color: rgb(63, 63, 150);} */
+/* .serif{
+    font-family:Georgia, 'Times New Roman', Times, serif}
+    .sansserif{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+    .monospace{
+    font-family: 'Courier New', Courier, monospace;} */
+
+        /* @font-face{
+            font-family: 'IranNastaliq';
+            src: url('../fonts/IranNastaliq.eot') format('eot');
+            src: url('../fonts/IranNastaliq.ttf') format('ttf');
+            src: url('../fonts/IranNastaliq.woff')  format('woff')}
+            p{
+                direction: rtl;
+                font-family: 'IranNastaliq' } */
+        
